@@ -1,0 +1,9 @@
+# This should prevent ALL files being executed/interpreted/handled.
+SetHandler none
+SetHandler default-handler
+
+# Disables the execution of cgi-files
+Options -ExecCGI
+
+# Disables the php engine on this directory
+php_flag engine off
